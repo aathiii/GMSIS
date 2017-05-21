@@ -1,0 +1,45 @@
+================================= README ==============================
+
+
+GARAGE MANAGEMENT SYSTEM
+
+AUTHORS: MIHAIL BUTNARU, HESHAM ABDELHAY , HEMANT PUNNI , AATHISHANKAR, FOYAZ  HASNATH
+DESCRIPTION: This software allows the user abstractly to manage a garage; using the interface the system 
+user will be able to add, edit or delete a customer, vehicle, parts or booking and manage data.
+
+================
+= LOG IN USERS =
+================
+Admin User -> Username: 12345 Password: admin
+Day-to-Day user -> Username: 12349 Password: admin
+
+=================
+= REQUIREMENTS =
+=================
+
+Installation of the software is not necessary, although JAVA 8 or JAVA 9 will need to be installed on the machine to be able to run the software. 
+The Software has been developed and tested using both versions of JAVA. Has been tested on Linux, Windows and Mac machines.
+
+To login to the system the default username and password for the GARAGE MANAGEMENT SYSTEM is given in the file login.txt
+
+Testing all the features of the given requirements such as, creating a customer/ adding a vehicle or deleting a booking. 
+The system user needs to use the right login to access all the data from the database to be able to add or edit a customer.
+
+=================
+= RUNNING STEPS =
+=================
+
+
+To run the project from the command line, open the terminal and find the location of the dist folder, and type the following:
+
+ java -jar “Garage.jar”
+
+It will pop up the authentication window for you to be able to access the data.
+
+To run the project without using the command line, find the unzip folder ( dist Folder) and click on the JAR file named  “Garage.jar”, Waiting for few second it will pop up to login.
+
+Distributing the project, you need to zip the list folder(including all the libraries) and distribute the ZIP file.
+
+
+
+

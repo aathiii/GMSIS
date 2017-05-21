@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="GarageSystem.jnlp">
+  <information>
+    <title>GarageSystem</title>
+    <vendor>MichaelButnaru</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="GarageSystem.jar" size="242352" download="eager" />
+    <jar href="lib\controlsfx-8.0.6_20.jar" size="856539" download="eager" />
+    <jar href="lib\sqlite-jdbc-3.16.1.jar" size="6161579" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="GarageSystem" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="common.Start"  name="GarageSystem" />
+  <update check="always"/>
+</jnlp>
